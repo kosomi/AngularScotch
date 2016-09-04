@@ -15,8 +15,7 @@
 2. var app = angular.module('myApp', ['ngCordova', 'ui.router']);
 
 
-3.
-app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+3. app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('tab', {
       url: '/tab',
